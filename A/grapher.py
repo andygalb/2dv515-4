@@ -17,6 +17,8 @@ def plot_results(history, neuralHistory):
     plt.plot(history.history['val_loss'])
     plt.plot(neuralHistory.history['loss'])
     plt.plot(neuralHistory.history['val_loss'])
+    plt.ylabel('loss')
+    plt.xlabel('epoch')
     plt.legend(['linear train', 'linear test', 'CNN train', 'CNN test'], loc='upper right')
 
     plt.tight_layout()
