@@ -41,7 +41,7 @@ def plotSpiral(results):
 
 # =====================================================================
 
-def visualize_classifier(classifier, X, y):  
+def visualize_classifier(classifier, X, y, title, filename):
 
    
     min_x, max_x = X[:, 0].min() - 1.0, X[:, 0].max() + 1.0
@@ -54,9 +54,11 @@ def visualize_classifier(classifier, X, y):
     plt.figure()  
     plt.pcolormesh(x_vals, y_vals, output, cmap=plt.cm.gray)
 
+    plt.title(title)
     plt.scatter(X[:, 0], X[:, 1], c=y, s=75, edgecolors='black',linewidth=1, cmap=plt.cm.Paired)
     plt.xlim(x_vals.min(), x_vals.max())
-    plt.ylim(y_vals.min(), y_vals.max()) 
+    plt.ylim(y_vals.min(), y_vals.max())
+    plt.savefig(filename, bbox_inches='tight')
   #  plt.xticks((np.arange(int(X[:, 0].min() - 1), int(X[:, 0].max() + 1),1.0)))
   #  plt.yticks((np.arange(int(X[:, 1].min() - 1), int(X[:, 1].max() + 1),1.0)))
     plt.show()
@@ -103,5 +105,5 @@ if __name__ == '__main__':
     print(confusion_matrix(y_test, mlp_predictions))
     print(classification_report(y_test, mlp_predictions))
 
-    visualize_classifier(sgd, X_test, y_test)
-    visualize_classifier(mlp,X_test,y_test)
+    visualize_classifier(sgd, X_test, y_test, "SGD Classifier of Spiral", "sgd")
+    visualize_classifier(mlp,X_test,y_test, "MLP Classifier of Spiral", "mlp")
