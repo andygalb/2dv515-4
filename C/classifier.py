@@ -97,11 +97,15 @@ if __name__ == '__main__':
 
 
     print("SGD Confusion Matrix")
-
+    from sklearn.metrics import accuracy_score
+    print("Accuracy Score:")
+    print(accuracy_score(y_test, sgd_predictions))
     print(confusion_matrix(y_test, sgd_predictions))
     print(classification_report(y_test, sgd_predictions))
 
     print("MLP Confusion Matrix")
+    print("Accuracy Score:")
+    print(accuracy_score(y_test, mlp_predictions))
     print(confusion_matrix(y_test, mlp_predictions))
     print(classification_report(y_test, mlp_predictions))
 

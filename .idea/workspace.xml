@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8075e084-e895-47ec-a1f5-6f9b35397828" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/C/classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/C/classifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/mlp.png" beforeDir="false" afterPath="$PROJECT_DIR$/C/mlp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/sgd.png" beforeDir="false" afterPath="$PROJECT_DIR$/C/sgd.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/C/classifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="214">
+              <caret line="110" column="57" lean-forward="true" selection-start-line="98" selection-start-column="3" selection-end-line="110" selection-end-column="57" />
               <folding>
                 <element signature="e#1450#1479#0" expanded="true" />
               </folding>
@@ -36,7 +39,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="20" />
     <option name="y" value="51" />
     <option name="width" value="1260" />
@@ -125,7 +128,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.11824324" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3006757" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -138,8 +141,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/C/classifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="214">
+          <caret line="110" column="57" lean-forward="true" selection-start-line="98" selection-start-column="3" selection-end-line="110" selection-end-column="57" />
           <folding>
             <element signature="e#1450#1479#0" expanded="true" />
           </folding>
